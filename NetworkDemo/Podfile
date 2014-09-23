@@ -1,0 +1,13 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, "6.0"
+
+target "NetworkDemo" do
+pod 'NetworkLib', :path => '../NetworkLib'
+pod 'AFDownloadRequestOperation', :path => '../AFDownloadRequestOperation'
+end
+
+target "NetworkDemoTests" do
+pod 'NetworkLib', :path => '../NetworkLib'
+pod 'AFDownloadRequestOperation', :path => '../AFDownloadRequestOperation'
+end
+

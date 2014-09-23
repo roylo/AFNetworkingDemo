@@ -1,0 +1,1 @@
+PODS_NETWORKDEMOTESTS_NETWORKLIB_OTHER_LDFLAGS = -framework SystemConfiguration
